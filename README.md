@@ -35,6 +35,15 @@ The goal is to identify key business insights such as top-performing products, h
 - Accessories generated approximately 11.53% of total revenue
 
 ## Product Revenue
+![Product Revenue Chart](product_revenue_preview.png)
+
+## Monthly Revenue Trend
+
+![Monthly Revenue Trend](monthly_revenue_trend.png)
+
+### Insight
+
+Revenue was highest in January at $3,250, dropped to $2,270 in February, and recovered to $2,720 in March.
 
 ![Product Revenue Chart](product_revenue_preview.png)
 
