@@ -1,58 +1,38 @@
-# E-Commerce Sales Analysis
+# E-Commerce Sales ETL & Analytics Pipeline
 
 ## Project Overview
 
-This project analyzes e-commerce sales data using Python, Pandas, Matplotlib, and Excel.
+This project builds a Python-based e-commerce sales pipeline that processes monthly CSV files, validates data quality, combines valid records, generates business KPIs, and exports reporting datasets.
 
-The goal is to identify key business insights such as top-performing products, highest-value customers, average order value, and category-level revenue contribution.
+The pipeline includes schema validation, numeric validation, business-rule checks, error handling, PASS/FAIL pipeline logging, and automated reporting.
 
-## Tools Used
+## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
+- OpenPyXL
 - Jupyter Notebook
-- Microsoft Excel
 
-## Business Questions
+## Project Structure
 
-- What is the total revenue?
-- What is the average order value?
-- Which product generates the most revenue?
-- Which customer generates the most revenue?
-- Which orders are above the average order value?
-- How much revenue comes from each product category?
-
-## Key Findings
-
-- Total Revenue: $8,240
-- Average Order Value: $824
-- Highest Single Order: $1,600
-- Top Product: Laptop — $3,630
-- Top Customer: David — $2,090
-- Electronics generated approximately 88.47% of total revenue
-- Accessories generated approximately 11.53% of total revenue
-
-## Product Revenue
-![Product Revenue Chart](product_revenue_preview.png)
-
-## Monthly Revenue Trend
-
-![Monthly Revenue Trend](monthly_revenue_trend.png)
-
-### Insight
-
-Revenue was highest in January at $3,250, dropped to $2,270 in February, and recovered to $2,720 in March.
-
-![Product Revenue Chart](product_revenue_preview.png)
-
-## Project Files
-
-- `Ecommerce_Sales_Analysis.ipynb` — Python analysis
-- `Ecommerce_Sales_Report_Formatted.xlsx` — Excel business report
-- `product_revenue_preview.png` — product revenue visualization
-
-## Skills Demonstrated
-
-Data cleaning, aggregation, filtering, groupby analysis, business metrics, data visualization, and Excel reporting.
+```text
+ecommerce-sales-analysis/
+│
+├── input/
+│   ├── january_sales.csv
+│   ├── february_sales.csv
+│   └── march_sales.csv
+│
+├── test_data/
+│   └── bad_sales.csv
+│
+├── output/
+│   ├── combined_sales.csv
+│   └── sales_pipeline_output.xlsx
+│
+├── ecommerce_sales_pipeline.ipynb
+├── product_revenue_chart.png
+├── monthly_revenue_trend.png
+└── README.md
