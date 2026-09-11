@@ -1,0 +1,4 @@
+OrderID,OrderDate,Customer,Product,Category,Quantity,Price,Revenue,Expected_Revenue,Revenue_Match
+1001,2026-01-05,Alice,Laptop,Tech,1,-500,1200,1200,True
+1002,2026-01-12,Bob,Phone,Tech,2,800,1600,1600,True
+1003,2026-01-20,Unknown,Headphones,Accessory,3,150,450,450,True
