@@ -1,0 +1,11 @@
+OrderID,OrderDate,Customer,Product,Category,Quantity,Price,Revenue,Expected_Revenue,Revenue_Match,Source_File,Source_Month
+1004,2026-02-03,David,Laptop,Tech,1,1250,1250,1250,True,february_sales.csv,February
+1005,2026-02-15,Alice,Phone,Tech,1,820,820,820,True,february_sales.csv,February
+1006,2026-02-25,Bob,Keyboard,Not Available,2,100,200,200,True,february_sales.csv,February
+1001,2026-01-05,Alice,Laptop,Tech,1,1200,1200,1200,True,january_sales.csv,January
+1002,2026-01-12,Bob,Phone,Tech,2,800,1600,1600,True,january_sales.csv,January
+1003,2026-01-20,Unknown,Headphones,Accessory,3,150,450,450,True,january_sales.csv,January
+1007,2026-03-04,Emma,Monitor,Tech,1,400,400,400,True,march_sales.csv,March
+1008,2026-03-12,Charlie,Headphones,Accessory,2,150,300,300,True,march_sales.csv,March
+1009,2026-03-20,David,Monitor,Tech,2,420,840,840,True,march_sales.csv,March
+1010,2026-03-28,Emma,Laptop,Tech,1,1180,1180,1180,True,march_sales.csv,March
